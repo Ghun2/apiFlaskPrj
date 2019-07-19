@@ -7,6 +7,12 @@ verify_ssl = true
 
 [packages]
 flask = "*"
+mysqlclient = "*"
+flask-sqlacodegen = "*"
+flask-sqlalchemy = "*"
 
 [requires]
 python_version = "3.7"
+
+[scripts]
+start = "python3 app.py"
